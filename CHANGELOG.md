@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.7]
+
+- Update dependencies to address security advisories: rack to 3.1.21, faraday to 2.14.3, jwt to 2.10.3, and uri to 1.0.4
+
 ## [1.0.6]
 
 - Update Ruby version to 3.4.5 to address security vulnerabilities
