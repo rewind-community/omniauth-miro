@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.10]
+
+- Require omniauth >= 2.2.0 (CVE-2026-63183, GHSA-m27g-v28p-f9fx: Host header injection); update `Gemfile.lock` to `omniauth` 2.2.0
+
 ## [1.0.9]
 
 - Address transitive dependency security advisories by updating `Gemfile.lock`:
