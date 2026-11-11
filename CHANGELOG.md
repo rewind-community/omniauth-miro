@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.10]
+
+- Address transitive dependency security advisories by updating `Gemfile.lock`:
+  - `rack` 3.1.21 → 3.1.23 (GHSA-5v64-555j-wjxm, GHSA-p8x9-v4hv-2w4g, GHSA-2j8w-xcrc-x985, GHSA-wvg4-6p58-3gh3)
+
 ## [1.0.9]
 
 - Address transitive dependency security advisories by updating `Gemfile.lock`:
