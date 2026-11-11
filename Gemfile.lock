@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    omniauth-miro (1.0.9)
+    omniauth-miro (1.0.10)
       omniauth (>= 1, < 3)
       omniauth-oauth2 (~> 1.1)
 
@@ -63,7 +63,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     racc (1.8.1)
-    rack (3.1.21)
+    rack (3.1.23)
     rack-protection (4.1.1)
       base64 (>= 0.1.0)
       logger (>= 1.6.0)
