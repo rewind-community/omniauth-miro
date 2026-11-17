@@ -5,15 +5,15 @@ on: pull_request
 jobs:
   rspec:
     name: rspec tests
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Check out code
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
       - name: Install Ruby
-        uses: ruby/setup-ruby@3ff19f5e2baf30647122352b96108b1fbe250c64 # v1
+        uses: ruby/setup-ruby@b3aaceaef7e0ee231b499e7b5f49c03fc1d32199 # v1.338.0
         with:
-          ruby-version: 3.4.5
+          ruby-version: .ruby-version
           bundler-cache: true
 
       - name: Run rspec tests
@@ -31,7 +31,7 @@ jobs:
 
   coverage:
     needs: rspec
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
       pull-requests: write
